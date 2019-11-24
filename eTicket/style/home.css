@@ -1,0 +1,101 @@
+.matrix_container {
+  display:flex;
+  flex-direction:row;
+  align-content: center;
+ 
+}
+
+.table_limiter{
+	max-width:769px;
+	max-height:529px;
+	overflow-y:auto;
+	overlflow-x:auto;
+	margin: 0 auto;
+  	padding: 5px;
+}
+
+.matrix_container .demo{
+	width:300px;
+	margin-left:0;
+	margin-top:10px;
+	position:relative; 
+	
+	
+	
+}
+
+.matrix_container .matrix {
+  margin: 0 auto;
+  padding: 5px;
+ 
+}
+
+.matrix tr, td {
+  padding: 5px;
+}
+
+.matrix button {
+  height: 35px;
+  width: 35px;
+  padding:0px;
+  border: none;
+  font-family: helvetica;
+  font-weight: bold;
+  cursor:pointer;
+  font-size: 13px;
+  text-align:center;
+  color:black;
+  border:solid 0.5px;
+}
+
+.matrix button:disabled{
+  cursor: not-allowed; 
+  color: black;
+}
+
+.matrix_container .seatDescription{
+	margin-top: 10px;
+	width:300px;
+	
+
+}
+
+.front {
+	font-size: 15px;
+	border-bottom: 1px solid #e0e0e3;
+	color: #4a536e;
+	
+	
+}
+
+#selected-seats{
+	height:200px;
+	overflow-y: auto;
+	list-style-type: square;
+	
+}
+
+#buy{
+	position:absolute;                  
+    bottom:10px;;                          
+    left:0; 
+   
+}
+
+#tickets{
+	
+	position:absolute;                  
+    bottom:50px;                          
+    left:0; 
+    
+}
+
+#reload:hover{
+	cursor: pointer;
+}
+
+footer {
+	text-align: center;
+}
+
+
